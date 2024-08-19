@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 14</title>
+    <style>
+        @import url();
+        body, html{
+            margin:0;
+            padding: 0;
+            height: 100%;
+        }
+        .cabe{
+            width: 100%;
+            height: 100px;
+            background-color:#322C2B;
+        }
+        input{
+            width: 20%;
+            height: 30px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            background-color: rgb(255, 255, 255);
+            border: solid black 1.5px;
+            border-radius: 10px;
+            background-image: url();
+            background-size: 10%;
+            background-repeat: no-repeat;
+            background-position: top 5px right 10px;
+            margin-top: 30px;
+            margin-right: 20px;
+            float: right;
+        }
+        .logo{
+            float: left;
+            text-indent: 20px;
+            width: 20%;
+        }
+        .cabe ul{
+            float: left;
+            width: 50%;
+            margin: 0px 0px 0px 0px;
+            line-height: 100px;
+            text-align: center;
+        }
+        .cabe ul li{
+            text-decoration: none;
+            display: inline;
+            padding: 20px;
+            color: #105214;
+            font-family:'Finger Paint', cursive;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+        .cabe ul li:hover{
+            color: #000000;
+        }
+        .box1, .box2, .box3, .box4{
+            position: relative;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .box1{
+            background-image: url(imagem/NATURE.jpg);
+        }
+        .box2{
+            background-image: url(imagem/NATURE2.jpg);
+        }
+        .box3{
+            background-image: url(imagem/NATURE3.webp);
+        }
+        .box4{
+            background-image: url(imagem/NATURE4.jpg);
+        }
+        .cont-img{
+            position: absolute;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+        }
+        .cont-img span.titulo{
+            background-color: #059f3b;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+        .conteudo{
+            background-color: white;
+            color: #000000;
+            text-align: justify;
+            padding: 50px 100px 40px 100px;
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        h2{
+            text-transform: uppercase;
+            color: rgb(61, 156, 91);
+            text-align: center;
+        }
+        .roda{
+            margin-top: -20px;
+            height: 330px;
+            background-color: aliceblue;
+        }
+        .roda .down_up{
+            text-align: center;
+            color: #3C6255;
+            font-family:'Finger Paint', cursive;
+            font-size: 4em;
+        }
+        .roda .down_meio{
+            text-align: center;
+            color: #3C6255;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .roda .down_down{
+            text-align: center;
+        }
+        .roda .down_down img{
+            width: 40px;
+            border-radius: 25px;
+            border: 4px green dotted;
+            cursor:pointer;
+            margin: 20px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cabe">
+        <div class="logo">
+            <img src="imagem/logonatureza.jpg">
+        </div>
+        <div>
+            <ul>
+                <li>HOME</li>
+                <li>SERVIÇOS</li>
+                <li>PRODUTOS</li>
+                <li>SOBRE</li>
+            </ul>
+        </div>
+        <input class="pesq" type="text" name="pesq" placeholder="Pesquisar">
+    </div>
+    
