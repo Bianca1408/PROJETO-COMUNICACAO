@@ -1,0 +1,74 @@
+body{
+    background-color: #B0A695;
+}
+.cor-navbar {
+    background-color: #AF8260;
+}
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#conteiner{
+    margin: 0 auto;
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display: block;
+    cursor: pointer
+}
+.cont{
+    display: inline;
+    cursor: pointer;
+}
+.cc{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    height: 80px;
+    resize:none;
+}
+.bot{
+    margin: 10px 0 0 10px;
+}   
+.roda{
+    background-color: #AF8260;
+    height: 150px;
+    width: 100%;
+}
+.roda_logo{
+    float: left;
+}
+.roda_logo2{
+    float: right;
+}
+.roda_meio{
+    text-align: center;
+    color: white;
+    float: left;
+    width: 70%;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
