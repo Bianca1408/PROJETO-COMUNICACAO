@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="1.css">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -18,7 +17,7 @@
   </head>
   
 
-<body>
+  <body style="background-color: #E4DCCF;">
     <!--INICIO MENU-->
 
   <nav class="navbar navbar-expand-lg navbar-light cor-navbar">
@@ -33,10 +32,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="home.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Sobre
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="atuai.html">Atuais</a></li>
+                <li><a class="dropdown-item" href="antigos.html">Antigos</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="quemsomos.html">Quem somos nós ?</a>
@@ -49,39 +54,29 @@
       </div>
     </div>
   </nav>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela Estilizada</title>
-    <style>
-    </style>
-</head>
-<bodysuporte>
+  <br>
     <div id="conteiner">
         <h1>FALE CONOSCO</h1>
         <form method="post" action="#">
             <fieldset>
-                <legend>Dados do Contato</legend>
+                <legend>Dados</legend>
                 <div>
                     <label for="email">Nome:</label>
                     <input class="cc" type="text" nome="email" id="email">
                 </div>
                 <div>
-                    <label for="url">e-Mail</label>
+                    <label for="url">e-Mail:</label>
                     <input class="cc" type="text" nome="url" id="url">
                 </div>              
             </fieldset>
             <fieldset>
                 <legend>Comentários</legend>
                 <div>
-                    <label for="meng">Deixe suas dúvidas e perguntas aqui:</label>
+                    <label for="meng">Deixe suas perguntas e dúvidas aqui:</label>
                     <textarea name="mensagem" id="meng"></textarea>
                 </div>
             <div class="bot">
-                <button type="submit">Enivar dados</button>
+                <button type="submit">Enviar</button>
             </div>
         </form>
     </div>
